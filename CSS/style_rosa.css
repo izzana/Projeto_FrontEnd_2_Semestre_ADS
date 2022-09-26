@@ -1,0 +1,169 @@
+.container-rosas {
+    width: 95vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container-rosas-linhas-interno {
+    margin: 0px auto;
+    width: 70vw;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.container-rosas-div {
+    margin: auto;
+    width: 84vw;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.container-titulo-botao {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content:space-between;
+    width: 100%;
+    
+    margin-bottom: 0;
+}
+
+.container-titulo-botao button {
+    background: #FFEBEB;
+    border: 1px solid transparent;
+    border-radius: 5vw 5vh;
+    padding: 1vh;
+}
+
+#titulo-rosas {
+    font-family: 'Rochester', cursive;
+    font-weight: 400;
+    height: 35px;
+    z-index: 9;
+    font-size: 40px;
+}
+
+.div-botao {
+    width: 100%;
+}
+
+.div-botao button {
+    margin-top: 1vh;
+    border-radius: 5px;
+
+    background: #FFEBEB;
+
+    border: 1px solid transparent;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    cursor: pointer;  
+    padding: 5px 12px;
+    font-size: 11.5px;
+    width: 100%;
+}
+
+.container-rosas-componentes {
+    margin: 3vw;
+    background-color: #fcfcfc;
+    width: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rosa-valor {
+    position: absolute;
+    bottom: 1px;
+}
+
+.container-rosas-linhas{
+    margin: auto;
+    width: 84vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFEBEB;
+    height: 75vh;
+}
+
+.container-titulo-botao img {
+    margin-left: 15px;
+}
+
+/*
+.botao-carrinho img{
+    background-color: #FFEBEB;
+    display: block;
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+    
+    padding: 10px;
+    width: 100%;
+
+    transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
+    opacity: 1;
+    pointer-events: auto;
+    box-shadow: 0px 3px 0px 0px rgba(165, 163, 163, 0.594);
+}
+*/
+.botao-carrinho {
+    position: absolute;
+    z-index: 5;
+    position: absolute;
+    top: 15px;
+    right: 1px;
+}
+
+#carrinho-img {
+    width: 50%;
+}
+
+.rosa-valor p {
+    background: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 13px; 
+    border-radius: 5px; 
+}
+
+/*
+.div-valor-rosa p {
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position:absolute;
+    z-index: 5;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 13px;   
+}
+*/
+.container-rosas-componentes img {
+    width: 8vw;
+    border-radius: 10px;
+}
+
+.titulo-rosa {
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.titulo-rosa p {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 13px;
+}
+
+.imagem-rosa{
+    position: relative;
+}
+
+.botoes-navegacao {
+    width: 100%;
+}

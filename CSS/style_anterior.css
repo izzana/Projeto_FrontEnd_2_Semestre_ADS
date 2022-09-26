@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, header, body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.container-geral {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form form{
+    width: 80vw;
+    
+}
+
+.credenciais {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: #fff; 
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: auto;
+    max-width: 25vw;
+    /*width: 500px;*/
+    height: 70vh;
+    /*height: 500px;*/
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+    justify-content: flex-start;
+    font-size: 12pt;
+}
+
+.form-input {
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.form-input input {
+    background-color: #FFEBEB;
+    width: 22vw;
+    height: 4vh; 
+    border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+.form-button {
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.form-button input {
+    background: #FFEBEB;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+    text-align: center;
+    width: 22vw;
+    height: 4vh; 
+}
+
+.container-arcortag{
+    display: flex;
+    flex-direction: column;   
+}
+
+.titulo{
+    max-width: 22vw;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+}
+.container-arcortag div{
+    color: black;    
+    width: 22vw;
+}
+.container-arcortag div a{
+    color: black;
+    
+}
+.container-arcortag  #arcortag-direita{
+    position: relative;
+    margin-bottom: 5vh;
+    font-size: 12pt;
+}
+
+.container-arcortag div #problemaLogin{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+div #arcortag-center{
+    display: flex;
+    margin-top: 5vh;
+    font-size: 13pt;
+    
+}
+#arcortag-center-div{
+    display: flex;
+    justify-content: center;
+    
+}
+#arcortag-center-div a{
+    margin-left: 6px;
+}

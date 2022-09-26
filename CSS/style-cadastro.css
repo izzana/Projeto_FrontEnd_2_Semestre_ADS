@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, header, body {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    font-size: 45px;
+    font-weight: 164;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo-cadastro{
+    max-width: 22vw;
+    max-height: 22 vh;
+}
+
+#container-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-redondo{
+    background-color: #fff;
+    width: 74vw;
+    height: 80vh;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+    border: 1px solid #fff;
+}
+
+.container-cadastro{
+    margin: auto;
+    width: 100%;
+}
+
+.container-dados-flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.container-dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 4vh;
+    
+}
+
+#container-dados-border{
+    border-left: 1px solid #FFD3D3;
+    padding-left: 4vw;
+}
+#botao-cadastro-principal{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#botao-cadastro{
+    display: flex;
+    justify-content: center;
+    color:  rgba(0, 0, 0, 0.500);
+    background-color: #FFF6F6;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+    text-align: center;
+    width: 18vw;
+    height: 4vh; 
+    margin-top: 6vh;
+}
+
+#botao-cadastro input{
+    background-color: #FFF6F6;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.container-dados input{
+    color:  rgba(0, 0, 0, 0.250);
+    background-color: #FFF6F6;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
+    text-align: left;
+    width: 30vw;
+    height: 5vh; 
+    margin-bottom: 5vh;
+    font-size: 15px;
+    padding-left: 5px ;    
+}

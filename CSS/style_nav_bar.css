@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-login a {
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: black;
+}
+
+#btn-cadastro a{
+    font-size: 14px;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+header {
+    background-color: #FFEBEB; 
+    
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px;
+    height: 16vh;
+}
+
+.nav-bar-input-icon {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.nav-bar-input-icon input {
+    background: transparent;
+}
+
+.nav-bar-search-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    width: 100%;
+}
+
+#input-search {
+    border: 0 none;
+    outline: none;
+    width: 100%;
+
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#search-icon {
+    background: transparent;
+    border: 0 none;
+}
+
+.nav-bar-options {
+    display: flex;
+    justify-content: space-around;
+
+    width: 66%;
+    background: #FFF6F6;
+    
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.titulo-nav-bar span{
+    font-family: 'Rochester', cursive;
+}
+
+#titulo-nav-bar {
+    font-family: 'Rochester', cursive; 
+    font-size: 50px;
+}
+
+.nav-bar-container{
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.nav-bar-search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+#btn-login {
+    background: #FFF6F6;
+    
+    border-radius: 5px;
+
+    padding: 4px 25px;
+
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#btn-cadastro {
+    background: Black;
+    
+    border-radius: 5px;
+
+    padding: 4px 25px;
+
+    font-size: 14px;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.nav-bar-options a { 
+    text-decoration: none;
+    color: black;  
+}
+
+.nav-bar-options a:hover { 
+    font-size: 17px;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-buttons button {
+ cursor: pointer;
+}
